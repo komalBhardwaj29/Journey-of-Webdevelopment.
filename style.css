@@ -1,20 +1,5 @@
-h1{
-    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:blueviolet;
-    text-align: center;
-    font-weight:900px;
-    text-shadow: 2px 2px 5px darkviolet;
-    text-decoration:underline;
-    letter-spacing:normal;
-    background-color:rgb(34, 53, 59);
-    line-height:1.5;
+body{
+    background-color:aquamarine;
     
 }
-body{
-    background-color:black;
-}
-p{
-    font-style:italic;
-    color:blueviolet;
-    text-align:center;
-}
+
