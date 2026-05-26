@@ -3,38 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Specificity in Css</title>
     <style>
-        h1{
-            color:aqua;
-        }
         .yellow{
             color:yellow;
+            background-color: red;
         }
         .cred{
-            color:brown;
+            color:crimson;
         }
         .cpurple{
             color:purple;
         }
-         .cred{
-            color:brown;
+        .cred{
+            color:cyan;
+            background-color:black;
         }
-                h1{
-            color:aqua;
+        /* when you write same class name then the last one will be applied */
+       [ data-x="a"]{
+            color:green;
         }
-        .yellow{
-            color:yellow;
-        }
-      /*  [data-x=a]{
-            background-color:red;
-        }*/
-        /*selector example*/
+        
     </style>
 </head>
 <body>
     <div>
-        <h1 style="color:aqua;" class=" yellow cred cpurple" data-x="a"> CSS Specificatiion</h1>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
     </div>
 </body>
 </html>
