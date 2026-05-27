@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Specificity in Css</title>
+    <title>Document</title>
     <style>
-        .yellow{
-            color:yellow;
-            background-color: red;
+        body{
+            background-color:blue;
+            color:white;
+            
         }
-        .cred{
-            color:crimson;
+        .box{
+            border: 2px solid black;
+            width: 100px;
+            padding:0px;
         }
-        .cpurple{
-            color:purple;
+        *{
+            margin: 0px;
+            padding: 0px;
         }
-        .cred{
-            color:cyan;
-            background-color:black;
-        }
-        /* when you write same class name then the last one will be applied */
-       [ data-x="a"]{
-            color:green;
-        }
-        
     </style>
 </head>
 <body>
-    <div>
-        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="box">
+        This is a box2
     </div>
 </body>
 </html>
